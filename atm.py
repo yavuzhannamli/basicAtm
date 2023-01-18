@@ -30,9 +30,10 @@ def withdrawMoney(account, amount):
 def balanceInquiry(balance):
             print(f"There is a balance of {accountA['balance']}$ in your account numbered {accountA['accountNO']}. Your additional balance limit is {accountA['additionalBalance']}$")
 
-withdrawMoney(accountA, 2000)
+amount=(int(input('amount: ')))
 balanceInquiry(accountA)
 
 print('*****************')
-withdrawMoney(accountA, 2000)
+# additional balance amount
+amount=(int(input('amount: ')))
 balanceInquiry(accountA)
